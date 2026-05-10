@@ -133,7 +133,7 @@ p, h2, h3, span {
   transition: 0.3s;
 }
 .rectbutton {
-  padding: 12px 14px;
+  padding: 8px 14px;
   border-radius: 10px;
   border: none;
   background: #22c55e; /* green */
