@@ -132,6 +132,18 @@ p, h2, h3, span {
   cursor: pointer;
   transition: 0.3s;
 }
+.rectbutton {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #22c55e; /* green */
+  color: white;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 
 .button:hover {
   background: #16a34a;
