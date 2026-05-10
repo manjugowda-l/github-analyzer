@@ -105,6 +105,14 @@ p, h2, h3, span {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
+.inputreq{
+  width: 220px;
+  height: 70px;
+  padding: 8px;
+  border-radius: 16px;
+  resize: none;
+}
+
 /* 🔘 BUTTON */
 .button {
   padding: 12px 22px;

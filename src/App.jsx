@@ -522,6 +522,12 @@ if (!loggedIn) {
                 onChange={(e) =>
                   setLoginPass(e.target.value)
                 }
+
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    handleLogin();
+                  }
+                }}
               />
 
               <button
@@ -913,7 +919,7 @@ if (!loggedIn) {
             </div>
 
             <textarea
-              className="input"
+              className="inputreq"
               value={requirement}
               onChange={(e) => setRequirement(e.target.value)}
               placeholder="Enter recruiter requirements"
