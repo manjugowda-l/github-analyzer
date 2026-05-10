@@ -1,16 +1,124 @@
-# React + Vite
+# GitHub Analyzer AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered GitHub profile analysis platform designed for developers and recruiters.
+The application analyzes GitHub profiles and repositories to generate AI-based insights, developer summaries, and recruiter-focused candidate evaluations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Developer Mode
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* GitHub profile analysis
+* AI-generated developer summary
+* Technology stack identification
+* Repository insights
+* Developer focus detection
 
-## Expanding the ESLint configuration
+### Recruiter Mode
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Candidate evaluation based on recruiter requirements
+* AI-generated match score
+* Strengths and weakness analysis
+* Technical fit assessment
+
+### Authentication
+
+* Login & Signup system
+* Session-based authentication
+* Logout functionality
+
+### UI Features
+
+* Modern responsive UI
+* Animated background effects
+* Search history suggestions
+* Keyboard shortcut support
+* Smooth transitions and interactions
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React.js
+* CSS3
+* Vite
+
+### Backend
+
+* Node.js
+* Express.js
+
+### APIs & AI
+
+* GitHub REST API
+* Groq API
+* Llama 3.1 8B Instant
+
+---
+
+## Project Workflow
+
+```text
+GitHub Username
+      ↓
+GitHub API Fetch
+      ↓
+Backend Processing
+      ↓
+Groq AI Analysis
+      ↓
+Formatted AI Response
+      ↓
+Frontend Visualization
+```
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/manjugowda-l/github-analyzer.git
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the backend folder:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+## Deployment
+
+* Frontend: Vercel
+* Backend: Render
+
+---
+
+## Author
+
+Manju Gowda
