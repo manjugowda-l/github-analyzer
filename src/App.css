@@ -106,7 +106,7 @@ p, h2, h3, span {
 }
 
 .inputreq{
-  width: 400px;
+  width: 460px;
   height: 70px;
   padding: 8px;
   border-radius: 16px;
@@ -839,7 +839,7 @@ p, h2, h3, span {
 .inputWrapper{
   position:relative;
 
-  width:100%;
+  width:300px;
 }
 
 .historyBox{
