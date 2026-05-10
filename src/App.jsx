@@ -952,7 +952,7 @@ if (!loggedIn) {
             />
 
             <button
-              className="button"
+              className="rectbutton"
               onClick={analyzeCandidate}
             >
               Analyze Candidate

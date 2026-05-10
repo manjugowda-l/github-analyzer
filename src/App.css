@@ -864,3 +864,28 @@ p, h2, h3, span {
 
   z-index:100;
 }
+
+.rectButton{
+  padding: 12px 18px;
+
+  height: 70px;
+
+  border: none;
+  border-radius: 14px;
+
+  background: #22c55e;
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.recruiterBtn:hover{
+  background:#16a34a;
+  transform: scale(1.03);
+}
