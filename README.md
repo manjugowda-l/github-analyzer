@@ -1,5 +1,10 @@
 # GitHub Analyzer AI
 
+## Live Demo
+
+🔗 https://github-analyzer-rosy.vercel.app/
+
+
 An AI-powered GitHub profile analysis platform designed for developers and recruiters.
 The application analyzes GitHub profiles and repositories to generate AI-based insights, developer summaries, and recruiter-focused candidate evaluations.
 
